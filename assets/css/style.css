@@ -630,7 +630,11 @@ footer {
 footer p {
     color: #FFF;
 }
-
+@media screen and (max-width: 1270px) {
+    .contact-container{
+        position: absolute;
+    }
+}
 
 @media screen and (max-width: 1080px) {
     .apresentation h1 {
@@ -689,6 +693,9 @@ footer p {
     .certified-container {
         flex-direction: column;
     }
+    .contact-container{
+        position: absolute;
+    }
 
 }
 
@@ -739,6 +746,10 @@ footer p {
     .about-photo img {
         height: 260px;
     }
+    .contact-container{
+        position: absolute;
+    }
+    
 }
 
 @media screen and (max-width: 770px) {
@@ -769,6 +780,9 @@ footer p {
 
     .about-photo img {
         height: 360px;
+    }
+    .contact-container{
+        position: absolute;
     }
 
 }
